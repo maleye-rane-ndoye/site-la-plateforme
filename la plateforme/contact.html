@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="laplateforme.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto+Slab:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contacts la plateforme</title>
+  </head>
+
+  <body>
+    <nav>
+      <label class="logo"
+        ><img
+          src="logolaplateforme.png"
+          alt="logo université numerique la plateforme"
+      /></label>
+      <ul>
+        <li><a class="active" href="#">Accueil</a></li>
+        <li><a class="active" href="#">Qui sommes nous</a></li>
+        <li><a class="active" href="#">Aws Restart</a></li>
+        <li><a class="active" href="#">La plateforme Start</a></li>
+        <li>
+          <a class="active" href="contact.html">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section>
+      <h1 class="titleformulaire">
+        Vous souhaitez des informations ou <br />
+        candidater à La Plateforme_ ?
+      </h1>
+
+      <form class="form" method="post" action="candidature.php">
+        <br />
+        <h1>Remplissez ce formulaire et nous reviendrons vers vous</h1>
+        <div class="select">
+          <select name="formation" id="former">
+            <option value="la formation">
+              La formation qui vous intéresse
+            </option>
+            <option value="coding">Coding School</option>
+            <option value="AI">AI School</option>
+            <option value="security">Security School</option>
+            <option value="bachelor">Bachelor IT</option>
+            <option value="devloppeur">Développeur web - TOULON</option>
+            <option value="codecarte">Code à la carte - BRIGNOLES</option>
+            <option value="executive">Executive Education</option>
+            <option value="laplatefome">La Plateforme / START</option>
+            <option value="innovation">Innovation Lab</option>
+            <option value="awsre">AWS re/Start</option>
+          </select>
+
+          <select name="entretien" id="enter">
+            <option value="prealable">
+              Souhaitez-vous passer un entretien préalable au test d'entrée?
+            </option>
+            <option value="yes">
+              Oui, je souhaite passer un entretien avec un membre de l'équipe
+              pédagogique poue avoir de plus amples informations
+            </option>
+            <option value="no">
+              Non, je souhaite candidater et passer le test d'entrée sans
+              entretien préalable
+            </option>
+          </select>
+        </div>
+
+        <div class="identity">
+          <label for="prenom"></label>
+          <input
+            type="text"
+            id="prenom"
+            name="prenom"
+            placeholder="Prénom"
+          /><br />
+
+          <label for="nom"></label>
+          <input type="text" id="nom" name="nom" placeholder="Nom" /><br />
+        </div>
+
+        <div class="contacts">
+          <label for="email"></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+          /><br />
+
+          <label for="telephone"></label>
+          <input
+            type="text"
+            id="telephone"
+            name="telephone"
+            placeholder="Télèphone"
+          /><br />
+        </div>
+
+        <label for="adresse"></label>
+        <input
+          class="adresse"
+          type="text"
+          id="adresse"
+          name="adresse"
+          placeholder="Adresse"
+        /><br />
+
+        <div class="localisation">
+          <label for="postal"></label>
+          <input
+            type="text"
+            id="postal"
+            name="postal"
+            placeholder="Code Postal"
+          /><br />
+
+          <label for="localisation"></label>
+          <input
+            type="text"
+            id="localisation"
+            name="localisation"
+            placeholder="Ville"
+          /><br />
+        </div>
+
+        <div class="info">
+          <label for="info"></label>
+          <input
+            type="text"
+            id="info"
+            name="info"
+            placeholder="Comment nous avez-vous connu ?"
+          /><br />
+
+          <label for="etude"></label>
+          <input
+            type="texte"
+            id="etude"
+            name="etude"
+            placeholder="Quel est votre niveau d'étude ?"
+          /><br />
+        </div>
+
+        <label for="message"></label>
+        <textarea
+          class="message"
+          name="message"
+          id="message"
+          placeholder="Message"
+          cols="30"
+          rows="10"
+        ></textarea
+        ><br />
+        <div class="newsletter">
+          <label for="newsletter">Inscrivez-vous à notre newsletter</label
+          ><br />
+          <input type="radio" id="newsletter" name="newsletter" value="choix" />
+          <input type="submit" value="ENVOYER" />
+        </div>
+      </form>
+
+      <div class="joinus">
+        <h1>Une autre question ?</h1>
+        <br />
+        <h3>Nous sommes aussi joignables :</h3>
+        <br />
+        <h4>
+          – Par email
+          <a href="contact@laplateforme.io">contact@laplateforme.io</a>
+        </h4>
+        <h4>
+          – Par téléphone au 04.84.89.43.69 du lundi au vendredi de 9h à 17h
+        </h4>
+        <h4>– Sur les réseaux sociaux</h4>
+      </div>
+      <br />
+
+      <div class="socialmedia">
+        <img class="colorsocialmedia" src="facebook.png" alt="facebook" />
+        <img class="colorsocialmedia" src="linkedin.png" alt="in" />
+        <img class="colorsocialmedia" src="logo-twitter.png" alt="twitter" />
+        <img class="colorsocialmedia" src="instagram (1).png" alt="instagram" />
+
+        <h1>Télécharger notre brochure</h1>
+      </div>
+
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.45703863192!2d5.367844315167495!3d43.30469107913485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c0eb8146c2d1%3A0xb2df496224e0aafe!2s8%20Rue%20d&#39;Hozier%2C%2013002%20Marseille!5e0!3m2!1sfr!2sfr!4v1666977569720!5m2!1sfr!2sfr"
+        width="1100"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <footer>
+      <main class="topfooter">
+        <div>
+          <img src="logolaplateforme.png" alt="" id="logoLP" />
+          <br /><br /><br />
+
+          <img class="blacksocialmedia" src="facebookcb.png" alt="facebook" />
+          <img class="blacksocialmedia" src="instagramcb.png" alt="instagram" />
+          <img class="blacksocialmedia" src="linkedincb.png" alt="linkedin" />
+          <img class="blacksocialmedia" src="twittercb.png" alt="twittercb" />
+          <img class="blacksocialmedia" src="youtubcb.png" alt="youtube" />
+        </div>
+        <div>
+          <h3>La Plateforme</h3>
+          <p>
+            Accueil <br />
+            Qui sommes-nous ?<br />
+            Notre brochure <br />
+            Ils parlent de nous <br />
+            Annuaire des Plateformeurs <br />
+            Alumni des Plateformeurs <br />
+            Taxe d'apprentissage <br />
+          </p>
+        </div>
+
+        <div>
+          <h3>Les Formations</h3>
+          <p>
+            La Plateforme/Start <br />
+            Coding School <br />
+            Bachelor IT <br />
+            Artificial Intelligence <br />
+            School Cyber Security School <br />
+          </p>
+        </div>
+        <div>
+          <h3>Informations</h3>
+          <p>
+            8 rue d’hozier, 13002 <br />
+            Marseille Tel : 04.84.89.43.69 <br />
+          </p>
+          <button class="button"><strong> contact</strong></button>
+          <img src="" alt="" />
+        </div>
+      </main>
+      <div class="reserverights">
+        <p>
+          © La Plateforme. Tous droits réservés. | Mentions légales | Cookies |
+          Référent handicap : Jessica Soriano
+        </p>
+
+        <div>
+          <img class="underfooter" src="facebookcb.png" alt="facebook" />
+          <img class="underfooter" src="instagramcb.png" alt="instagram" />
+          <img class="underfooter" src="linkedincb.png" alt="linkedin" />
+          <img class="underfooter" src="twittercb.png" alt="twittercb" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

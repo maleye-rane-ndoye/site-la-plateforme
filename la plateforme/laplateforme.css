@@ -1,0 +1,404 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(241, 236, 236, 0.726);
+  margin: 0%;
+  padding: 0%;
+  flex-wrap: wrap;
+}
+nav {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  justify-content: space-around;
+  height: 80px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+nav ul li a {
+  display: inline-block;
+  line-height: 45px;
+  margin: 0 20px;
+  font-size: 15px;
+  padding: 0px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  justify-content: space-around;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+}
+li a {
+  color: rgb(19, 18, 18);
+  position: relative;
+  padding: 0 15px;
+}
+li a:hover {
+  background: white;
+  transition: 0.2s all;
+  color: rgba(37, 37, 163, 0.952);
+}
+
+nav img {
+  width: 250px;
+  float: right;
+}
+#hamberger img {
+  width: 30px;
+  visibility: visible;
+}
+.present img {
+  width: 700px;
+}
+.presentext {
+  font-size: x-large;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+}
+.signup {
+  font-weight: bold;
+  font-size: x-large;
+  background-color: rgb(187, 7, 112);
+  margin: 25px;
+  padding: 15px;
+  border-radius: 15px;
+}
+.signup a {
+  color: white;
+}
+.signup:hover {
+  word-spacing: 5px;
+}
+.presentdegree {
+  font-size: small;
+  color: rgba(190, 200, 209, 0.452);
+}
+.presentation {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  color: white;
+  background-color: rgba(37, 37, 163, 0.952);
+}
+.titleforme {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+  font-size: xx-large;
+  margin: 50px;
+  color: rgba(37, 37, 163, 0.952);
+}
+.formation {
+  display: flex;
+  font-size: x-large;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+  justify-content: space-around;
+  text-align: center;
+  color: rgba(37, 37, 163, 0.952);
+}
+.coding {
+  background-color: white;
+  box-shadow: 10px 5px 5px rgba(158, 156, 156, 0.397);
+}
+.IA {
+  background-color: white;
+  box-shadow: 10px 5px 5px rgba(158, 156, 156, 0.397);
+}
+.cyber {
+  background-color: white;
+  box-shadow: 10px 5px 5px rgba(158, 156, 156, 0.397);
+}
+.dicover {
+  background-color: #f3b137d8;
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  width: 70%;
+  text-align: center;
+  margin-left: 50px;
+}
+.dicover:hover {
+  letter-spacing: 5px;
+}
+.transformation img {
+  width: 145px;
+}
+.transformation {
+  font-size: large;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+  justify-content: space-around;
+  text-align: center;
+  color: rgba(37, 37, 163, 0.952);
+}
+.transcontent img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.transcontent {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  font-size: large;
+  justify-content: space-around;
+  margin: 25px;
+  background-color: white;
+  box-shadow: 10px 5px 5px rgba(158, 156, 156, 0.397);
+}
+.transformation h1:hover {
+  letter-spacing: 5px;
+}
+.transformation h1 {
+  background-color: #f3b137d8;
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  width: 20%;
+  text-align: center;
+  margin-left: 50%;
+}
+.temoignages {
+  background-color: #ff8800e5;
+}
+
+.temoignages h1 {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+  font-size: xx-large;
+  margin: 50px;
+  color: white;
+}
+.temoignages p {
+  font-size: large;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  color: white;
+}
+.video {
+  display: flex;
+  justify-content: space-around;
+  margin: 3em;
+}
+.colorsocialmedia {
+  width: 3%;
+}
+.blacksocialmedia {
+  width: 30px;
+}
+
+.underfooter {
+  width: 30px;
+  display: inline-block;
+  color: rgb(7, 126, 230);
+  margin-right: 5px;
+}
+#logoLP {
+  width: 30%;
+}
+.topfooter {
+  margin: 0px;
+  padding: 75px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(54, 53, 53);
+  text-align: left;
+  align-items: center;
+  font-size: large;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+.button {
+  margin-top: 30px;
+  font-size: large;
+}
+.button :hover {
+  background-color: #ff8800e5;
+  border: 5px;
+  border-radius: 5px;
+}
+.reserverights {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(60, 60, 61, 0.877);
+  color: white;
+}
+
+@media screen and(max-width: 1220px) {
+  nav ul {
+    visibility: hidden;
+  }
+  #hamberger img {
+    visibility: visible;
+    display: inline-block;
+  }
+}
+.form {
+  background-color: rgba(66, 140, 201, 0.575);
+  width: 90%;
+  margin-left: 75px;
+  box-shadow: 10px 5px 5px rgba(158, 156, 156, 0.397);
+}
+.titleformulaire {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+  font-size: xx-large;
+  margin: 50px;
+  color: rgba(37, 37, 163, 0.952);
+}
+.formulaire h1 {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+  font-size: large;
+
+  color: rgba(37, 37, 163, 0.952);
+}
+.form h1 {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+  font-size: x-large;
+  margin-top: 2em;
+  color: rgba(37, 37, 163, 0.952);
+}
+.select {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+.select select {
+  width: 35%;
+  height: 4em;
+  margin-top: 2em;
+}
+.identity {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+.identity input {
+  width: 35%;
+  height: 4em;
+}
+.contacts {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+.contacts input {
+  width: 35%;
+  height: 4em;
+}
+.adresse {
+  width: 70%;
+  height: 4em;
+  margin-left: 15%;
+  margin-top: 2em;
+}
+.localisation {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+.info {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.localisation input {
+  width: 35%;
+  height: 4em;
+}
+.info input {
+  width: 35%;
+  height: 4em;
+}
+.message {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 2em;
+}
+.newsletter {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2em;
+  justify-content: space-around;
+}
+.newsletter input {
+  text-align: right;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+  font-size: small;
+  margin-left: 2em;
+  color: white;
+  background-color: rgba(37, 37, 163, 0.952);
+  border-radius: 5px;
+}
+.newsletter label {
+  text-align: left;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+  font-size: large;
+  margin-top: 2em;
+  margin-left: 2em;
+  color: rgba(37, 37, 163, 0.952);
+}
+.joinus {
+  text-align: left;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+  font-size: large;
+  margin-top: 2em;
+  margin-left: 2em;
+  color: rgba(37, 37, 163, 0.952);
+  margin-left: 5em;
+}
+.socialmedia {
+  text-align: left;
+  font-family: "Amatic SC", cursive;
+  font-family: "Roboto Slab", serif;
+  font-size: large;
+  margin-top: 2em;
+  margin-left: 2em;
+  color: rgba(37, 37, 163, 0.952);
+  margin-left: 5em;
+  margin-bottom: 3em;
+}
+.map {
+  margin-left: 8em;
+  margin-bottom: 5em;
+}
